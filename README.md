@@ -5,3 +5,20 @@ This repository supports the manuscript "Nonreciprocal and Conditional Cooperati
 1) Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, NY 10065, USA
 2) Laboratory of Evolutionary Genetics and Genomics, The Rockefeller University, New York, NY 10065, USA
 
+# Notebooks
+[Mouse Genomic Data Preparation](ipynb/bioc-mouse-preparation_public.ipynb): Data preparation for mouse.
+
+[Mouse Motif Matching](ipynb/bioc-mouse-analysis_public.ipynb): FIMO coordinate conversion for mouse.
+
+[**Mouse Genomic Data Analysis**](ipynb/bioc-mouse-genomic-analysis_public.ipynb): Data analysis for mouse, resulting in **Figures 6B and 6C**.
+
+[Human Genomic Data Preparation](ipynb/bioc-human-preparation_public.ipynb): Data preparation for human.
+
+[Human Motif Matching](ipynb/bioc-human-analysis_public.ipynb): FIMO coordinate conversion for human.
+
+[**Human Genomic Data Analysis**](ipynb/bioc-human-analysis_public.ipynb): Data analysis for human, resulting in **Figure 6D**.
+
+# Scripts
+[`danpos_xls_process.py`](scripts/danpos_xls_process.py) - converts the raw XLS output from DANPOS dpos to a bedgraph. Also filters peaks to only those with a summit height 1.5X the genomic mean.
+
+[`wig2rle.R`](scripts/wig2rle.R) - a slight misnomer; converts a **BigWig** to a Bioconductor GRanges RleList, saving it as a RDS.
