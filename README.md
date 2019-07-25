@@ -18,6 +18,8 @@ This repository supports the manuscript "Nonreciprocal and Conditional Cooperati
 
 [**Human Genomic Data Analysis**](ipynb/bioc-human-analysis-public.ipynb): Data analysis for human, resulting in **Supplemental Figures S7A-E**.
 
+[Figure 7A Schematic](ipynb/PanelA_public.ipynb): Generates the curves used in the schematic in Figure 7A.
+
 # Scripts
 [`danpos_xls_process.py`](scripts/danpos_xls_process.py) - converts the raw XLS output from DANPOS dpos to a bedgraph. Also filters peaks to only those with a summit height 1.5X the genomic mean.
 
