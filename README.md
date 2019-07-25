@@ -14,7 +14,7 @@ This repository supports the manuscript "Nonreciprocal and Conditional Cooperati
 
 [Human Genomic Data Preparation](ipynb/bioc-human-preparation-public.ipynb): Data preparation for human.
 
-[Human Motif Matching](py3_motif-matching-human-public.ipynb): FIMO coordinate conversion for human.
+[Human Motif Matching](ipynb/py3_motif-matching-human-public.ipynb): FIMO coordinate conversion for human.
 
 [**Human Genomic Data Analysis**](ipynb/bioc-human-analysis-public.ipynb): Data analysis for human, resulting in **Supplemental Figures S7A-E**.
 
