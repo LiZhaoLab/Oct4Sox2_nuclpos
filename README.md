@@ -8,15 +8,15 @@ This repository supports the manuscript "Nonreciprocal and Conditional Cooperati
 # Notebooks
 [Mouse Genomic Data Preparation](ipynb/bioc-mouse-preparation-public.ipynb): Data preparation for mouse.
 
-[Mouse Motif Matching](ipynb/bioc-mouse-analysis-public.ipynb): FIMO coordinate conversion for mouse.
+[Mouse Motif Matching](ipynb/py3_motif-matching-mouse-public.ipynb): FIMO coordinate conversion for mouse.
 
-[**Mouse Genomic Data Analysis**](ipynb/bioc-mouse-genomic-analysis_public.ipynb): Data analysis for mouse, resulting in **Figures 7B-E and S7A-C**.
+[**Mouse Genomic Data Analysis**](ipynb/bioc-mouse-genomic-analysis_public.ipynb): Data analysis for mouse, resulting in **Figures 7B-F**.
 
 [Human Genomic Data Preparation](ipynb/bioc-human-preparation-public.ipynb): Data preparation for human.
 
-[Human Motif Matching](ipynb/bioc-human-analysis-public.ipynb): FIMO coordinate conversion for human.
+[Human Motif Matching](py3_motif-matching-human-public.ipynb): FIMO coordinate conversion for human.
 
-[**Human Genomic Data Analysis**](ipynb/bioc-human-analysis-public.ipynb): Data analysis for human, resulting in **Figure S7D-H**.
+[**Human Genomic Data Analysis**](ipynb/bioc-human-analysis-public.ipynb): Data analysis for human, resulting in **Supplemental Figures S7A-E**.
 
 # Scripts
 [`danpos_xls_process.py`](scripts/danpos_xls_process.py) - converts the raw XLS output from DANPOS dpos to a bedgraph. Also filters peaks to only those with a summit height 1.5X the genomic mean.
